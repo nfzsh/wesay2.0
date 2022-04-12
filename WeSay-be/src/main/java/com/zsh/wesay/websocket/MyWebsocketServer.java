@@ -19,7 +19,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @date 2022/4/10 0:53
  */
 @Log4j2
-@ServerEndpoint("/test/{userName}")
+@ServerEndpoint("/api/we_say/{userName}")
 @Component
 public class MyWebsocketServer {
     /**
